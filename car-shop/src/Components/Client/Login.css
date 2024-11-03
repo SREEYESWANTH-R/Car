@@ -1,0 +1,73 @@
+.login{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    background-color: rgb(32, 32, 32);
+}
+
+.login-Container{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/mitsubishi-833f7.appspot.com/o/Assests%2Flogin.jpg?alt=media&token=14d8eb66-6c08-4bf6-b643-c4a4186ae699");
+    width:70%;
+    height:90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    padding: 5em 3em;
+    background-color: rgba(240, 248, 255, 0.197);
+    gap: 1em;
+    color: White;
+    border-radius: 5px;
+    box-shadow: 0px 0px 500px 50px rgba(59, 59, 59, 0.374);
+}
+
+.login-form button{
+    padding: 0.5em 2em;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--button-red);
+    border: none;
+}
+
+.customTextField {
+    color: white;
+  }
+  
+  .customTextField .MuiOutlinedInput-root {
+    color: white; 
+    border-color: white;
+  }
+  
+  .customTextField .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: white; 
+}
+  .customTextField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: white; }
+  
+  .customTextField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: white; 
+  }
+  
+  .customTextField .MuiInputLabel-root {
+    color: white; 
+  }
+  
+  .customTextField .MuiInputLabel-root.Mui-focused {
+    color: white; 
+  }
+  

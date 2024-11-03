@@ -1,0 +1,111 @@
+.intro{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/mitsubishi-833f7.appspot.com/o/Assests%2FMitshubhisi_Car.png?alt=media&token=a2f11aae-4563-4582-9bd7-fa5e8762129b");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding: 0 20em;
+    
+}
+
+.intro img{
+    width:100%;
+    
+}
+
+.intro-details{
+    display: flex;
+    align-items: center;
+    top:0%;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    translate: -50% -50%;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0px 0px 10px var(--button-red);
+}
+
+.det-item1{
+    padding: 1em;
+    
+}
+
+.det-item2{
+    padding: 1em;
+    background-color: rgb(225, 225, 225);
+}
+
+.news-sec{
+    padding: 5em 3em;
+    position: relative;
+}
+
+
+.Abstract{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    translate:-50% -50%;
+    color: white;
+    text-align: center;
+}
+
+
+
+.Abstract button{
+    padding:0.4em 1em;
+    background-color: var(--button-red);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* CONTACT */
+
+.contact{
+    position: relative;
+}
+
+.sub{
+    position: absolute;
+    background-color: var(--button-red);
+    color: white;
+    padding: 2em;
+    bottom: 70%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 5px;
+   
+}
+
+
+.sub-int{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sub-int input{
+    outline: none;
+    border: none;
+    padding: 0.7em;
+}
+
+
+.contactUs{
+    display: flex;
+    background-color: rgb(9, 9, 9);
+    padding: 3em;
+}
+
+.cont-ip{
+    color: white;
+}

@@ -1,0 +1,51 @@
+.footer{
+    padding: 1em 6em;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/mitsubishi-833f7.appspot.com/o/Assests%2Ffooterbg.jpg?alt=media&token=eae7ca8f-00dc-41e2-8721-18974fdabc60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.Foot-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.foot-abt{
+    width: 33%;
+}
+
+.footnav-itm{
+    position: relative;
+    cursor: pointer;
+}
+
+.footnav-itm::after{
+    content:"";
+    width:0;
+    height: 2px;
+    bottom:-5px;
+    left: 0;
+    background-color: var(--button-red);
+    transition: width 0.3s;
+}
+
+.footnav-itm:hover::after{
+    width: 100%;
+}
+
+
+.foot-nav ul{
+    list-style: none;
+}
+
+.foot-logo{
+    font-size: larger;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+.header{
+    padding:0.2em 3em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.209);
+    
+}
+
+.header img{
+     width:50px;
+}
+
+.auth-btn{
+    display: flex;
+    gap:10px;
+}
+
+.auth-btn > button{
+    padding:0.4em 1em;
+    background-color: var(--button-red);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-lst{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+    cursor: pointer;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--button-red);
+    transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
