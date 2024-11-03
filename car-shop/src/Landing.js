@@ -60,7 +60,7 @@ function Landing(){
                         <div className="inp-text-area">
                             <input type="text" placeholder="Address"/>
                         </div>
-                        
+                        <button className='cont-btn'> SEND </button>
                     </div>
                     
                 </div>
